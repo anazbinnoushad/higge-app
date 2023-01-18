@@ -10,6 +10,7 @@ module.exports = {
         primary: "#00CC96",
         secondary: "#F6F7FB",
         tagline: "#2975FF",
+        discountred: "#FF0000",
       },
     },
   },
