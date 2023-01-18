@@ -1,3 +1,4 @@
+import Navbar from '@/components/Navbar'
 import Head from 'next/head'
 import Image from 'next/image'
 // import { Inter } from '@next/font/google'
@@ -15,7 +16,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <a className=' text-5xl font-semibold'>HIGGE</a>
+        {/* <a className=' text-5xl font-semibold'>HIGGE</a> */}
+        <Navbar />
       </main>
     </>
   )
