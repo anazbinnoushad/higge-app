@@ -3,7 +3,7 @@ import Image from "next/image";
 const Navbar = () => {
     return (
         <div className=" flex justify-between md:px-10 px-4 py-4">
-            <div className=" w-12 h-12 bg-secondary rounded-full flex items-center justify-center">
+            <div className=" w-12 h-12 bg-secondary  md:hidden rounded-full flex items-center justify-center">
                 <Image src="/svg/Hamburger.svg" alt="menu" width={20} height={18} />
             </div>
             <div className=" hidden md:block">
